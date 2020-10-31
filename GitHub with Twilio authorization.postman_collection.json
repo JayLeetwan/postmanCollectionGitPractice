@@ -13,7 +13,7 @@
 					"script": {
 						"id": "a3121b07-a72f-441c-a0b2-b42f79125fdd",
 						"exec": [
-							"pm.test(\"Status code is 401\", function () {\r",
+							"pm.test(\"Status code is 401 \", function () {\r",
 							"    pm.response.to.have.status(401);\r",
 							"});"
 						],
